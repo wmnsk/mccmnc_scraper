@@ -23,7 +23,8 @@ headers = [h.string for h in soup.thead.find_all('th')]
 bodies = []
 w_tag = [t.find_all('td') for t in soup.tbody.find_all('tr')]
 for w in w_tag:
-	bodies.append([d.string for d in w])
+    bodies.append([d.string for d in w])
 
 df = pd.DataFrame(columns=headers, data=bodies)
 df.set_index('MCC').to_csv(argv[1])
+

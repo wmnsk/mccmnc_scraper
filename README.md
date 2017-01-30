@@ -1,7 +1,7 @@
 # MCC/MNC Scraper
 
-Mini python script to export the MCC/MNC list from mcc-mnc.com in CSV format.  
-This is quite hard-coded and NO guarantee to work every time you run...
+Mini python script to export the MCC/MNC list from **[mcc-mnc.com](http://mcc-mnc.com)** in CSV format.  
+This is quite hard-coded and NO guarantee to work when the website is updated...
 
 ### Usage
 Just specify the filename for csv as you like.
@@ -19,6 +19,7 @@ MCC,MNC,ISO,Country,Country Code,Network
 412,80,af,Afghanistan,93,Afghan Telecom Corp. (AT) 
 412,01,af,Afghanistan,93,Afghan Wireless/AWCC 
 412,40,af,Afghanistan,93,Areeba/MTN 
+...
 ```
 
 ### Author
